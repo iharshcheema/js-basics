@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js dom</title>
+    <style>
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+
+        h1 {
+            background-color: green;
+            padding: 20px 0 20px 100px;
+            color: white;
+        }
+
+        button{
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <h1 id="h-one">Heading</h1>
+    </header>
+
+    <div class="container">
+
+        <div class="form">
+            <form action="">
+                <label for="add-items">Add items</label>
+                <input type="text" id="add-items">
+                <button id="btn">Submit</button>
+            </form>
+        </div>
+
+        <div class="list-items">
+            <div>This is a list item:</div>
+            <span></span>
+            <ul id="unorderedlist">
+                <li>1st</li>
+                <li id="second-li">2nd</li>
+                <li>3rd</li>
+            </ul>
+        </div>
+
+    </div>
+ 
+    <script src="dom.js"></script>
+</body>
+
+</html>
